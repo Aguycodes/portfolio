@@ -1,0 +1,70 @@
+
+body{
+    font-size: 14pt;
+}
+.headnav{
+    background-color: #00132b;
+}
+.headnav span{
+    color: #ffffff;
+    font-size: 20pt;
+    font-weight: bold;
+}
+.headnav img{
+    float: left;
+    vertical-align: middle;
+    width: 75px;
+    border-radius: 50%;
+    margin: 10px;
+}
+#headnav-link{
+    color: #fbd6ce;
+    font-size: 10pt;
+    text-decoration: none;
+}
+.headnav ul li{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.profile{
+    color: #ffffff;
+    text-align: center;
+    background-image: url('images/programmer.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: #61a3cf;
+    background-blend-mode: multiply;
+}
+.profile h1{
+    font-weight: bolder;
+    font-size: 30pt;
+    padding: 10px;
+    text-shadow: 2px 2px 2px #000000;
+}
+.profile img{
+    padding: 10px;
+    width: 350px;
+    border-radius: 20px;
+}
+.profile p{
+    text-shadow: 1px 1px 1px #000000;
+    max-width: 700px;
+    margin: auto;
+}
+
+
+@media screen and (max-width: 400px){
+    .headnav span{
+        font-size: 14pt;
+    }
+    .headnav img{
+        width: 15%;
+    }
+    .profile img{
+        width: 60%;
+    }
+    .profile p{
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+}
